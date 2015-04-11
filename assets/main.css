@@ -1,0 +1,32 @@
+body
+{
+	width: 50em;
+	margin-left: auto;
+	margin-right: auto;
+}
+h3
+{
+	text-align: center;
+	padding-top: 6em;
+	padding-bottom: 1em;
+}
+h1
+{
+	border: 2px solid black;
+	padding: 1em 3em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+a
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+button
+{
+	padding: .3em 1em;
+	background-color: white;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
