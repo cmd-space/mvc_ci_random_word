@@ -3,5 +3,6 @@
 $route['default_controller'] = "main";
 $route['404_override'] = '';
 $route['destroy'] = 'main/destroy';
+$route['/'] = "main";
 
 //end of routes.php

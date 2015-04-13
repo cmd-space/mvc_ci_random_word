@@ -21,8 +21,8 @@ class Main extends CI_Controller {
 	public function random()
 	{
 		$alphanumeric = array('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9');
-		$this->session->set_userdata('word','');
-		for($i=0;$i<14;$i++)
+		$this->session->set_userdata('word');
+		for($i=0;$i<=14;$i++)
 		{
 			$random = rand(0,34);
 			$letter = $alphanumeric[$random];
